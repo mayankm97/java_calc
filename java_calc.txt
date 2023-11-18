@@ -1,0 +1,22 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 4, b = 2, res = 0;
+        System.out.println("Enter an operation.. \n");
+        char ch = sc.next().charAt(0);
+        if(ch == '+') {
+            res = a + b;
+        }
+        else if(ch == '-') {
+            res = a - b;
+        }
+        else if(ch == '*') {
+            res = a * b;
+        }
+        else if(ch == '/') {
+            res = a / b;
+        }
+        System.out.println("The result is " + res);
+    }
+}
